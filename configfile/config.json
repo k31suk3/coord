@@ -1,0 +1,43 @@
+{
+    "alias":[
+        {
+            "flight_time":"datetime",
+            "flight_st":"uav_status/flight_st",
+            "flight_md":"uav_status/flight_mode",
+            "RC_st":"uav_status/RC/RC_st",
+            "RC_source":"uav_status/RC/RC_source",
+            "latitude":"uav_status/position/latitude",
+            "longitude":"uav_status/position/longitude",
+            "height":"uav_status/position/height",
+            "altitude":"uav_status/position/altitude",
+            "ellipsoid_height":"uav_status/position/ellipsoid_height",
+            "wp_num":"mission_info/wp_part",
+            "mission_st":"mission_info/mission_st",
+            "RSRQ":"component/1/network/RSRQ",
+            "RSRP":"component/1/network/RSRP",
+            "SINR":"component/1/network/SINR",
+            "txpower":"component/1/network/txpower",
+            "cellid":"component/1/network/cellid",
+            "satellite_num":"uav_status/gnss/satellite_num",
+            "pos_method":"uav_status/gnss/pos_method",
+            "velocity":"uav_status/velocity",
+            "bat_vol":"component/3/electric/bat_vol"
+            }
+    ],
+    
+    
+    "ranges":[
+        {
+            "range1":[-90,-85,-80,-75,-70],
+            "color1":["ff00ff","ff0000","ffff00","00ff00","00ffff","0000ff"]            
+        },
+        {
+            "range2":[-21,-16,-11,-6,-1],
+            "color2":["ff00ff","ff0000","ffff00","00ff00","00ffff","0000ff"]  
+        },
+        {
+            "range3":[-20,-10,0,10,20],
+            "color3":["0000ff","00ffff","00ff00","ffff00","ff0000","ff00ff"]   
+        }
+    ]
+}
